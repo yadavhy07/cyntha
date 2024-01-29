@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+}
+#main #hero {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: #fff;
+  position: relative;
+}
+#hero .nav {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 4vh 4vw;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+#hero .text {
+  box-sizing: border-box;
+  padding: 4vh 4vw;
+  margin-top: 9vh;
+}
+.text h1 {
+  font-size: 8vw;
+  letter-spacing: 0.5vw;
+  color: #ffffff7c;
+}
+.text .text02 {
+  margin-left: 10vw;
+}
+.text02 h4 {
+  text-align: center;
+}
+#hero .newtext {
+  position: absolute;
+  top: 67%;
+  right: 1%;
+}
+.newtext h3 {
+  font-size: 1.5vw;
+}
+
+#hero .footer {
+  position: absolute;
+  bottom: 1%;
+  box-sizing: border-box;
+  padding: 4vh 4vw;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer3 {
+  display: flex;
+  gap: 1vw;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2vw;
+}
+.footer3 .circul {
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff82;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer span {
+  font-size: 92%;
+}
+
+#sec{
+    padding-right: 10vw;
+    padding-left: 4vw;
+    width: 100%;
+    /* height: 100vh; */
+    background-color: black;
+    padding-top: 18vh;
+    color: #fff;
+
+}
+.elem h1{
+    font-size: 2.7vw;
+    color: #ffffff96;
+}
+.elem{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid #888;
+    box-sizing: border-box;
+    padding: 7vh 3vw;
+    
+}
+.elem1{
+    border-bottom: 1px solid #888;
+}
+
+#main .sub{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 4vh 4vw;
+    padding-bottom: 12vh;
+}
+.sub h3{
+    color: #888;
+}
+.sub h4{
+    letter-spacing: 1px;
+    margin-top: 1%;
+}
+.sub span{
+    font-size: 12px;
+}
+
+#main .lowerfooter{
+    width: 100%;
+    color: #fff;
+    background-color: black;
+    padding: 4vh 4vw;
+}
+.lowerfooter{
+    display: flex;
+    justify-content: space-between;
+
+}
+.lowerfooter .left{
+    display: flex;
+    gap: 12px;
+}
+.lowerfooter .right{
+    display: flex;
+    gap: 20px;
+}
+.right a{
+    text-decoration: none;
+    color: #fff;
+    
+}
